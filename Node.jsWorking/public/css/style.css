@@ -1,0 +1,19 @@
+.DenemeBuyuk{
+    font-size: xx-small;
+    background: lightslategray;
+    margin-top:20px;
+    padding: 16px;
+} 
+.yeniStyle{
+    background-color: green;
+    border:1px;
+    border-color:cyan;
+    margin-top: 20px;
+}
+
+.loginPanel{
+    width:320px;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}

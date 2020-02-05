@@ -1,0 +1,30 @@
+
+
+<div class="container">
+    <h1>Kullanici Listesi</h3>
+    <table class="table table-hover">
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Ad</th>
+                <th>Soyad</th>
+                <th>Kullanici Adi</th>
+                <th>İşlem</th>
+            </tr>
+        </thead>
+        <tbody>
+            <%for(var i=0;i<userList.length;i++){%>
+            <tr>
+                <th><%=i+1%></th>
+                <th><%=userList[i].ad%></th>
+                <th><%=userList[i].soyad%></th>
+                <th><%=userList[i].kullaniciAdi%></th>
+                <th><a href="/delete/<%=userList[i].kullaniciAdi%>">Sil</a></th>
+            </tr>
+            <%}%>
+        </tbody>
+
+
+       
+    </table>
+</div>
